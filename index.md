@@ -1,5 +1,10 @@
-{% for project in site.projects %}
-## {{ project.title }}
-**Description**: {{ project.description }}  
-**Repo Link**: [{{ project.repo_link }}]({{ project.repo_link }})
-{% endfor %}
+<div style="display: flex; flex-wrap: wrap; gap: 20px;">
+  {% for project in site.projects %}
+  <div style="flex: 1; min-width: 300px;">
+    <img src="{{ project.title | slugify }}.png" alt="{{ project.title }} image" style="width: 100%; height: auto;"/>
+    <h2>{{ project.title }}</h2>
+    <p><strong>Description:</strong> {{ project.description }}</p>
+    <p><strong>Repo Link:</strong> <a href="{{ project.repo_link }}">{{ project.repo_link }}</a></p>
+  </div>
+  {% endfor %}
+</div>
