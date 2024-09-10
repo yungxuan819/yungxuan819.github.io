@@ -1,5 +1,16 @@
-title: Slate theme
-description: Slate is a theme for GitHub Pages.
-show_downloads: true
+title: Yung Xuan's projects
+description: Welcome to my personal webpage, where I showcase a collection of projects that highlight my skills and expertise in the data field.
+show_downloads: false
 google_analytics:
 theme: jekyll-theme-slate
+
+projects:
+  - title: "NBA MVP Prediction"
+    description: "My Diploma's FYP aimed at predicting the NBA's Most Valuable Player (MVP) based on player statistics, team performance, and historical data"
+    repo_link: "https://github.com/yungxuan819/NBA_MVP_Prediction_FYP"
+  - title: "Student Performance Analysis"
+    description: "To understand the influence of the parents background, test preparation etc on students' academic performances, and accurately predict students' performance (score)"
+    repo_link: "https://github.com/yungxuan819/student_performance_analysis"
+  - title: "House Price Analysis"
+    description: "A project focused on identifying key factors that influence house prices, and accurately predict house prices based on these factors"
+    repo_link: "https://github.com/yungxuan819/Bengaluru_House_Price_Prediction"
