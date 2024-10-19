@@ -14,3 +14,6 @@ projects:
   - title: "House Price Analysis"
     description: "A project focused on identifying key factors that influence house prices, and accurately predict house prices based on these factors"
     repo_link: "https://github.com/yungxuan819/Bengaluru_House_Price_Prediction"
+  - title: "Music Popularity Prediction"
+    description: "Based on pre-collected Spotify API data, I analyzed and find out the best predictive model to accurately predict the popularity index for each track"
+    repo_link: "https://github.com/yungxuan819/music_popularity_prediction"
