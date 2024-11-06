@@ -17,3 +17,6 @@ projects:
   - title: "Music Popularity Prediction"
     description: "Based on pre-collected Spotify API data, I analyzed and find out the best predictive model to accurately predict the popularity index for each track"
     repo_link: "https://github.com/yungxuan819/music_popularity_prediction"
+  - title: "Heart Disease Analysis"
+    description: "I analyzed a dataset of individuals at high or low risk for heart problems using visualizations, and built predictive models to determine the most effective classification method for this case"
+    repo_link: "https://github.com/yungxuan819/heart-disease-analysis"
