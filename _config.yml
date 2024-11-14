@@ -20,3 +20,6 @@ projects:
   - title: "Heart Disease Analysis"
     description: "I analyzed a dataset of individuals at high or low risk for heart problems using visualizations, and built predictive models to determine the most effective classification method for this case"
     repo_link: "https://github.com/yungxuan819/heart-disease-analysis"
+  - title: "YouTube Channels Analysis"
+    description: "This project involves analyzing a dataset containing key statistics from various YouTube channels, including views, subscribers, total videos, and more. The focus is on performing EDA through impactful visualizations, alongside with data cleaning and predictive model building to predict the 'average_views' of each channel."
+    repo_link: "https://github.com/yungxuan819/youtube_channels_analysis"
