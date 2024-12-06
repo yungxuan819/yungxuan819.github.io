@@ -5,6 +5,9 @@
     <h2>{{ project.title }}</h2>
     <p><strong>Description:</strong> {{ project.description }}</p>
     <p><strong>Repo Link:</strong> <a href="{{ project.repo_link }}" style="word-wrap: break-word; overflow-wrap: break-word;">{{ project.repo_link }}</a></p>
+    {% if project.app_link %}
+      <p><strong>Live App Link:</strong> <a href="{{ project.app_link }}" style="word-wrap: break-word; overflow-wrap: break-word;" target="_blank">{{ project.app_link }}</a></p>
+    {% endif %}
   </div>
   {% endfor %}
 </div>
