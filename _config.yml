@@ -23,3 +23,7 @@ projects:
   - title: "YouTube Channels Analysis"
     description: "This project involves analyzing a dataset containing key statistics from various YouTube channels, including views, subscribers, total videos, and more. The focus is on performing EDA through impactful visualizations, alongside with data cleaning and predictive model building to predict the 'average_views' of each channel."
     repo_link: "https://github.com/yungxuan819/youtube_channels_analysis"
+  - title: "Data Analysis Web App using Streamlit"
+    description: "This project is a Data Analysis Web App built with Streamlit and Python. It allows users to upload CSV datasets and perform basic data analysis and visualizations without needing any coding knowledge. The app provides various interactive features to help users explore their datasets, identify missing values, and visualize key insights."
+    repo_link: "https://github.com/yungxuan819/data-analysis-web-app"
+    app_link: "https://yxdataanalysiswebapp.streamlit.app/"
