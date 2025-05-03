@@ -8,7 +8,7 @@ projects:
   - title: "NBA MVP Prediction"
     description: "My Diploma's FYP aimed at predicting the NBA's Most Valuable Player (MVP) based on player statistics, team performance, and historical data"
     repo_link: "https://github.com/yungxuan819/NBA_MVP_Prediction_FYP"
-  - title: "Brawl Stars Player Dashboard
+  - title: "Brawl Stars Player Dashboard"
     description: "Using Brawl Stars API, I collected data and built an ETL pipeline to store them using SQLite. Then, I obtained and cleaned necessary data, and built a visually appealing dashboard using Tableau, that shows visualizations to allow players to analyze their performances."
     repo_link: "https://github.com/yungxuan819/brawl-stars-player-dashboard"
   - title: "Student Performance Analysis"
