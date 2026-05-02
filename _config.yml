@@ -8,7 +8,7 @@ projects:
   - title: "NBA MVP Prediction"
     description: "My Diploma's FYP aimed at predicting the NBA's Most Valuable Player (MVP) based on player statistics, team performance, and historical data"
     repo_link: "https://github.com/yungxuan819/NBA_MVP_Prediction_FYP"
-  - title: "Rossmann Sales Prediction & Dashboard"
+  - title: "Rossmann Sales Prediction and Dashboard"
     description: "A machine learning project that predicts retail store sales using a Random Forest model with an interactive Power BI dashboard for business insights and visualization"
     repo_link: "https://github.com/yungxuan819/rossmann-store-sales-prediction"
   - title: "Brawl Stars Player Dashboard"
