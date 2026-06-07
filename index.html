@@ -34,6 +34,8 @@
     --tag-api-t: #ffaacc;
     --tag-sql: rgba(0,220,180,0.18);
     --tag-sql-t: #00ddb4;
+    --tag-fullstack: rgba(255, 140, 50, 0.18);
+    --tag-fullstack-t: #ffaa66;
   }
 
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -330,6 +332,7 @@
   .tag-etl { background: var(--tag-etl); color: var(--tag-etl-t); }
   .tag-api { background: var(--tag-api); color: var(--tag-api-t); }
   .tag-sql { background: var(--tag-sql); color: var(--tag-sql-t); }
+  .tag-fullstack { background: var(--tag-fullstack); color: var(--tag-fullstack-t); }
 
   .card-title {
     font-family: var(--mono);
@@ -717,9 +720,9 @@
           <img class="card-img" src="https://yungxuan819.github.io/images/eatwhatleh-webapp.png" alt="EatWhatLeh WebApp" onerror="this.style.display='none'" />
           <div class="card-body">
             <div class="card-tags">
-              <span class="tag tag-frontend">Next.js</span>
+              <span class="tag tag-fullstack">Next.js</span>
               <span class="tag tag-sql">Supabase</span>
-              <span class="tag tag-llm">LLM Extraction</span>
+              <span class="tag tag-api">LLM Extraction</span>
             </div>
             <div class="card-title">EatWhatLeh WebApp</div>
             <div class="card-desc">A Malaysian restaurant discovery web app that aggregates daily Instagram posts from food creators, uses AI to extract restaurant data, and lets users filter by cuisine, area, and vibe with one-tap Google Maps directions.</div>
