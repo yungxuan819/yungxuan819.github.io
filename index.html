@@ -76,19 +76,6 @@
     z-index: 0;
   }
 
-  /* ── SCANLINE ── */
-  .scanline {
-    position: fixed;
-    top: 0; left: 0; right: 0;
-    height: 2px;
-    background: linear-gradient(90deg, transparent, var(--accent), transparent);
-    animation: scan 6s ease-in-out infinite;
-    pointer-events: none;
-    z-index: 100;
-    opacity: 0.5;
-  }
-  @keyframes scan { 0%,100% { top: -2px; } 50% { top: 100vh; } }
-
   main { position: relative; z-index: 1; }
 
   /* ── NAV ── */
@@ -608,8 +595,6 @@
 </head>
 <body>
 
-<div class="scanline"></div>
-
 <nav>
   <a href="#" class="nav-logo"><span>//</span> yungxuan819</a>
   <div class="nav-links">
@@ -643,14 +628,14 @@
         <div><span class="prompt">$ </span>cat skills.txt</div>
         <div class="val">Python · SQL · Machine Learning · Power BI · Tableau · SAS · Git · C++</div>
         <div><span class="prompt">$ </span>ls projects/ | wc -l</div>
-        <div class="val">10</div>
+        <div class="val">11</div>
         <div><span class="prompt">$ </span><span style="animation: blink 1s step-end infinite; display:inline-block; width:8px; height:1em; background:var(--accent); vertical-align:middle;"></span></div>
       </div>
     </div>
 
     <div class="hero-stats">
       <div class="stat-item">
-        <div class="stat-num">11</div>
+        <div class="stat-num">12</div>
         <div class="stat-label">Projects</div>
       </div>
       <div class="stat-item">
@@ -678,28 +663,44 @@
 
       <!-- Featured -->
       <div class="featured-card">
-        <img class="featured-img" src="https://yungxuan819.github.io/images/fintech-transaction-analytics-dashboard.png" alt="Fintech Transaction Analytics Dashboard" onerror="this.style.display='none'" />
+        <img class="featured-img" src="images/multimodal-hate-speech-detection.png" alt="Efficient Multimodal Machine Learning Techniques for Text-Image Hate Speech Detection" onerror="this.style.display='none'" />
         <div class="featured-body">
           <div>
             <div class="featured-label">★ FEATURED PROJECT</div>
-            <div class="featured-title">Fintech Transaction Analytics Dashboard</div>
+            <div class="featured-title">Efficient Multimodal Machine Learning Techniques for Text-Image Hate Speech Detection</div>
             <div class="featured-desc">
-              An end-to-end transaction fraud analytics dashboard built on 6.3M synthetic banking records using PostgreSQL for data storage and Power BI for visualization and business intelligence.
+              Degree FYP: built and compared five multimodal deep learning architectures for text-image hate speech detection, fine-tuned the top three models, and benchmarked them against zero-shot Claude, Gemini, and Grok predictions while testing whether Google Cloud Vision Safe Search adds useful signal.
             </div>
             <div class="card-tags" style="margin-bottom: 1.25rem;">
-              <span class="tag tag-sql">SQL</span>
-              <span class="tag tag-viz">Power BI</span>
-              <span class="tag tag-etl">ETL</span>
+              <span class="tag tag-ml">Deep Learning</span>
+              <span class="tag tag-api">Multimodal AI</span>
+              <span class="tag tag-sql">Python</span>
             </div>
           </div>
           <div class="featured-links">
-            <a class="btn-primary" href="https://github.com/yungxuan819/fintech-transaction-dashboard" target="_blank">View Repo →</a>
+            <a class="btn-primary" href="https://github.com/yungxuan819/multimodal-hate-speech-detection" target="_blank">View Repo →</a>
           </div>
         </div>
       </div>
 
       <!-- Grid -->
       <div class="projects-grid">
+
+        <div class="project-card">
+          <img class="card-img" src="https://yungxuan819.github.io/images/fintech-transaction-analytics-dashboard.png" alt="Fintech Transaction Analytics Dashboard" onerror="this.style.display='none'" />
+          <div class="card-body">
+            <div class="card-tags">
+              <span class="tag tag-sql">SQL</span>
+              <span class="tag tag-viz">Power BI</span>
+              <span class="tag tag-etl">ETL</span>
+            </div>
+            <div class="card-title">Fintech Transaction Analytics Dashboard</div>
+            <div class="card-desc">An end-to-end transaction fraud analytics dashboard built on 6.3M synthetic banking records using PostgreSQL and Power BI.</div>
+            <div class="card-footer">
+              <a class="card-link" href="https://github.com/yungxuan819/fintech-transaction-dashboard" target="_blank">github.com →</a>
+            </div>
+          </div>
+        </div>
 
         <div class="project-card">
           <img class="card-img" src="https://yungxuan819.github.io/images/nba-mvp-prediction.png" alt="NBA MVP Prediction" onerror="this.style.display='none'" />
